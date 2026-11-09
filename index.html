@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VoyageAI — Curated Global Expeditions</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0b0f19">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header>
+    <a href="#" class="brand">Voyage<span>AI</span></a>
+    <button class="burger" id="burger" aria-label="Toggle navigation menu">&#9776;</button>
+    <nav class="links" id="links">
+      <a href="#destinations">Destinations</a>
+      <a href="#experience">Experience</a>
+      <a href="#itinerary">Itinerary</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact" class="btn btn-sm btn-primary">Book Trip</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-badge">Next-Gen Travel Intelligence</div>
+    <h1>Discover the Earth’s Rare Horizons</h1>
+    <p>AI-optimized routes, bespoke luxury camps, and breathtaking expeditions tailored to your exact rhythm.</p>
+    <div class="hero-actions">
+      <a href="#destinations" class="btn btn-primary">Explore Expeditions</a>
+      <a href="#contact" class="btn">Talk to a Concierge</a>
+    </div>
+  </section>
+
+  <!-- Destinations Section -->
+  <section class="section" id="destinations">
+    <div class="container">
+      <div class="section-header">
+        <h2>Featured Expeditions</h2>
+        <p>Hand-crafted journeys to the world’s most stunning untouched landscapes.</p>
+      </div>
+      <div class="destination-list">
+        <div class="dest-item">
+          <div class="dest-meta">
+            <span class="location">Patagonia, Chile</span>
+            <span class="duration">12 Days</span>
+          </div>
+          <h3>Glacial Fjords & Granite Spires</h3>
+          <p>Trek ancient ice fields with private mountain guides and stay in low-impact eco lodges.</p>
+          <div class="dest-footer">
+            <span class="price">From $6,400</span>
+            <a href="#contact" class="btn btn-sm">Reserve Slot</a>
+          </div>
+        </div>
+        <div class="dest-item">
+          <div class="dest-meta">
+            <span class="location">Lofoten, Norway</span>
+            <span class="duration">8 Days</span>
+          </div>
+          <h3>Arctic Aurora & Coastal Fishing Villages</h3>
+          <p>Chase the northern lights aboard a restored wooden schooner, dining on hyper-local arctic cuisine.</p>
+          <div class="dest-footer">
+            <span class="price">From $4,900</span>
+            <a href="#contact" class="btn btn-sm">Reserve Slot</a>
+          </div>
+        </div>
+        <div class="dest-item">
+          <div class="dest-meta">
+            <span class="location">Kyoto & Alps, Japan</span>
+            <span class="duration">10 Days</span>
+          </div>
+          <h3>Zen Sanctuaries & Mountain Trails</h3>
+          <p>Walk the historic Nakasendo trail, sleep in centuries-old ryokans, and access private tea ceremonies.</p>
+          <div class="dest-footer">
+            <span class="price">From $7,200</span>
+            <a href="#contact" class="btn btn-sm">Reserve Slot</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience / Stats Section -->
+  <section class="section alt-bg" id="experience">
+    <div class="container stats-grid">
+      <div class="stat-box">
+        <span class="stat-number">99.8%</span>
+        <span class="stat-label">Satisfaction Score</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-number">45+</span>
+        <span class="stat-label">Remote Territories</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-number">24/7</span>
+        <span class="stat-label">Live Concierge AI</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Itinerary / Tabs Section -->
+  <section class="section" id="itinerary">
+    <div class="container">
+      <div class="section-header">
+        <h2>How We Curate Your Journey</h2>
+        <p>A seamless four-step pipeline from dream to doorstep.</p>
+      </div>
+      <div class="wrap">
+        <div class="tabs" id="tabs">
+          <button class="tab active" data-tab="step1">1. Consult</button>
+          <button class="tab" data-tab="step2">2. Match</button>
+          <button class="tab" data-tab="step3">3. Refine</button>
+          <button class="tab" data-tab="step4">4. Journey</button>
+        </div>
+        <div class="panel active" id="step1">
+          <h3>Discovery Session</h3>
+          <p>We analyze your travel preferences, physical comfort level, and bucket-list priorities via our intelligent brief.</p>
+        </div>
+        <div class="panel" id="step2">
+          <h3>Algorithmic Route Generation</h3>
+          <p>Our system cross-references weather windows, local cultural events, and crowd densities to build your baseline map.</p>
+        </div>
+        <div class="panel" id="step3">
+          <h3>Human Expert Polish</h3>
+          <p>Veteran explorers and local fixers review every logistical touchpoint to ensure absolute safety and surprise delights.</p>
+        </div>
+        <div class="panel" id="step4">
+          <h3>Flawless Execution</h3>
+          <p>Set off with our offline companion app, real-time flight re-booking agents, and 24-hour satellite support.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ / Accordion Section -->
+  <section class="section alt-bg" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <h2>Frequently Asked Questions</h2>
+        <p>Everything you need to know about booking with VoyageAI.</p>
+      </div>
+      <div class="wrap">
+        <div class="item">
+          <button class="q">Are flights included in the expedition cost?</button>
+          <div class="a">International long-haul flights are customized based on your departure city and preferred cabin class, billed transparently at exact airline cost.</div>
+        </div>
+        <div class="item">
+          <button class="q">What physical fitness level is required?</button>
+          <div class="a">Each trip is clearly tagged with a fitness tier. Many itineraries offer flexible daily choices ranging from gentle cultural walks to intense alpine hikes.</div>
+        </div>
+        <div class="item">
+          <button class="q">Can I request a completely solo private itinerary?</button>
+          <div class="a">Yes. Over 40% of our travelers book bespoke private departures for solo exploration, couples, or private family groups.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Begin Your Expedition</h2>
+        <p>Drop your details below and a destination designer will reach out within 4 hours.</p>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" required placeholder="Jane Doe">
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" required placeholder="jane@example.com">
+        </div>
+        <div class="form-group">
+          <label for="destination">Dream Destination</label>
+          <input type="text" id="destination" required placeholder="Patagonia, Norway, Japan...">
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;">Submit Inquiry</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#" class="brand">Voyage<span>AI</span></a>
+        <p>Redefining luxury adventure travel through cutting-edge curation.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#destinations">Destinations</a>
+        <a href="#experience">Experience</a>
+        <a href="#itinerary">Itinerary</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="footer-copy">
+        &copy; 2026 VoyageAI Inc. All rights reserved. <a href="404.html" style="color:var(--muted); margin-left:12px;">404 Demo</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
